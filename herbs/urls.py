@@ -5,3 +5,9 @@ from views import (
     FlavorListView,
     HerbListView
 )
+
+urlpatterns = [
+    path('', views.starting_page, name="starting-page"),
+    path('herbs', HerbListView.as_view(), name="herb-page"),
+    path('herbs/<slug:slug>', views.post_detail, name="herb-detail-page")
+]
