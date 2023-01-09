@@ -14,7 +14,7 @@ class HerbListView(ListView):
 class HerbDetailsViev(DeleteView):
 
     model = Herb
-
+    template_name = 'herbs/'
     def get_queryset(self):
         pass
 
