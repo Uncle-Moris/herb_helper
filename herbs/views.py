@@ -11,10 +11,11 @@ class HerbListView(ListView):
         pass
 
 
-class HerbDetailsViev(DeleteView):
+class HerbDetailsView(DeleteView):
 
     model = Herb
     template_name = 'herbs/'
+
     def get_queryset(self):
         pass
 

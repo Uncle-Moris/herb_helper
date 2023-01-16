@@ -15,7 +15,7 @@ class Country(models.Model):
     class Meta:
         ordering = ('name',)
 
-    name = models.CharField(unique=True)
+    name = models.CharField(unique=True, max_length=100)
 
     def __str__(self):
         return f'{self.name}'
@@ -33,7 +33,7 @@ class Flavor(models.Model):
 
 class Herb(models.Model):
     name = models.CharField(unique=True, max_length=255)
-    category = models.ForeignKey(Country, on_delete=models.SET_NULL)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     country_of_origin = models.ManyToManyField(Country)
     flavor = models.ForeignKey(Flavor, on_delete=models.CASCADE)
     
