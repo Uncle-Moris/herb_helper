@@ -1,5 +1,5 @@
 from django.urls import path, include
-from views import (
+from .views import (
     CountryListView,
     CategoryListView,
     FlavorListView,
@@ -8,7 +8,7 @@ from views import (
 )
 
 urlpatterns = [
-    path('', views.starting_page, name="starting-page"),
-    path('herbs', HerbListView.as_view(), name="herb-list"),
-    path('herbs/<slug:slug>', HerbDetailsView, name="herb-detail-page")
+    # path('', views.starting_page, name="starting-page"),
+    path('', HerbListView.as_view(), name="herb-list"),
+    path('herbs/<slug:slug>', HerbDetailsView.as_view(), name="herb-detail-page")
 ]
