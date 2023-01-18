@@ -6,18 +6,14 @@ from .models import Herb, Category, Country, Flavor
 
 class HerbListView(ListView):
     model = Herb
-
-    def get_context_data(self, *, object_list=None, **kwargs):
-        pass
+    context_object_name = 'herbs_list'
 
 
 class HerbDetailsView(DeleteView):
-
     model = Herb
-    template_name = 'herbs/'
+    template_name = "herbs/herb_delete.html"
 
-    def get_queryset(self):
-        pass
+
 
 
 class CategoryListView(ListView):

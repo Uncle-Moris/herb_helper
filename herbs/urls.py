@@ -10,5 +10,5 @@ from .views import (
 urlpatterns = [
     # path('', views.starting_page, name="starting-page"),
     path('', HerbListView.as_view(), name="herb-list"),
-    path('herbs/<slug:slug>', HerbDetailsView.as_view(), name="herb-detail-page")
+    path('<int:pk>', HerbDetailsView.as_view(), name="herb-detail-page")
 ]
