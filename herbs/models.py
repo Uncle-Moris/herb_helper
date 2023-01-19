@@ -33,7 +33,13 @@ class Flavor(models.Model):
 
 class Herb(models.Model):
     name = models.CharField(unique=True, max_length=255)
+    slug = models.SlugField(null=False,
+                            unique=True)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     country_of_origin = models.ManyToManyField(Country)
     flavor = models.ForeignKey(Flavor, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'{self.name}'
+
     

@@ -11,12 +11,9 @@ G
 	manage.py,3/1/3156ad13e4d695cd526bbb7b031016ecba842270
 C
 herb_helper/wsgi.py,e/2/e2e0bd430f1d680b904df39dab5aa76ee159fbb4
-:
-
-db.sqlite3,9/0/907ac5e500f6286c18519bf943721af4c97e50d5
 C
 herb_helper/asgi.py,d/d/dd3edd90767b7b5ab60a703066c51900c97e6ab4
-@
-static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
 B
 templates/404.html,6/8/68a8bfc84a821a32ae5ba7dad3051cb12d1529b3
+C
+herb_helper/urls.py,f/0/f0f365ed7a8c7b133ac44f7cb3d9fe8579a13c9b

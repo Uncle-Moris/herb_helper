@@ -1,0 +1,14 @@
+nav {
+
+    background-color: #38520e;
+}
+
+nav ul, li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b2b247;
+
+}
