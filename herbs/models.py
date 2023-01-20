@@ -39,7 +39,6 @@ class Herb(models.Model):
     country_of_origin = models.ManyToManyField(Country)
     flavor = models.ForeignKey(Flavor, on_delete=models.CASCADE)
     img = models.ImageField(upload_to='uploads/')
+
     def __str__(self):
         return f'{self.name}'
-
-    
