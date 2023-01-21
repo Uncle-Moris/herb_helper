@@ -26,6 +26,8 @@ class Flavor(models.Model):
         ordering = ('name',)
 
     name = models.CharField(max_length=50, unique=True)
+    slug = models.SlugField(null=False,
+                            unique=True)
 
     def __str__(self):
         return f'{self.name}'
