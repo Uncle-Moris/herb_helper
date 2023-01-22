@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import ListView,DeleteView
 
-from .models import Herb, Category, Country, Flavor
+from .models.models import Herb, Category, Country, Flavor
 
 
 class HerbListView(ListView):

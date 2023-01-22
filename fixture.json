@@ -1,0 +1,14 @@
+[
+    {"model": "herbs.category", "pk": 1, "fields": {"name": "Herbs"}},
+    {"model": "herbs.category", "pk": 2, "fields": {"name": "Spices"}},
+    {"model": "herbs.category", "pk": 3, "fields": {"name": "Flowers"}},
+    {"model": "herbs.country", "pk": 1, "fields": {"name": "India"}},
+    {"model": "herbs.country", "pk": 2, "fields": {"name": "Mexico"}},
+    {"model": "herbs.country", "pk": 3, "fields": {"name": "Thailand"}},
+    {"model": "herbs.flavor", "pk": 1, "fields": {"name": "Sweet"}},
+    {"model": "herbs.flavor", "pk": 2, "fields": {"name": "Sour"}},
+    {"model": "herbs.flavor", "pk": 3, "fields": {"name": "Bitter"}},
+    {"model": "herbs.herb", "pk": 1, "fields": {"name": "Basil", "slug": "basil", "category": 1, "flavor": 1, "img": "basil.jpg"}},
+    {"model": "herbs.herb", "pk": 2, "fields": {"name": "Coriander", "slug": "coriander", "category": 1, "flavor": 2, "img": "coriander.jpg"}},
+    {"model": "herbs.herb", "pk": 3, "fields": {"name": "Thyme", "slug": "thyme", "category": 1, "flavor": 3, "img": "thyme.jpg"}}
+]
