@@ -17,3 +17,9 @@ B
 templates/404.html,6/8/68a8bfc84a821a32ae5ba7dad3051cb12d1529b3
 C
 herb_helper/urls.py,f/0/f0f365ed7a8c7b133ac44f7cb3d9fe8579a13c9b
+C
+templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
+=
+herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
+H
+herbs/models/__init__.py,1/4/1405469d41f896e0dfd76b8743f1612704449ef4
