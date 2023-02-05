@@ -1,6 +1,7 @@
 from django.db import models
 from .abstract_models import BaseModel
 
+
 class Category(BaseModel):
     class Meta:
         ordering = ('pk',)

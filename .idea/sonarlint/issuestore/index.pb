@@ -23,3 +23,17 @@ C
 herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
 H
 herbs/models/__init__.py,1/4/1405469d41f896e0dfd76b8743f1612704449ef4
+<
+fixture.json,f/4/f470f3d99a50c6d6df112c2388af0d578bda059a
+T
+$herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
+P
+ herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
+G
+herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
+>
+herbs/views.py,3/e/3e67312e51e79ae9ca643b5f3ca28d62975c7ddf
+V
+&herbs/templates/herbs/herb_delete.html,c/f/cf99a2f4868de82a5364f463ba3ea16bbded9996
+@
+static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4

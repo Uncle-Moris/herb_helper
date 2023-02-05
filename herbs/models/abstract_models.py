@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.text import slugify
 
 
 class BaseModel(models.Model):
@@ -11,7 +12,12 @@ class BaseModel(models.Model):
                             blank=False,
                             null=False,
                             unique=True
+                            , editable=False
                             )
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.name)
+        super().save(*args, **kwargs)
 
     class Meta:
         abstract = True
