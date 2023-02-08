@@ -14,18 +14,13 @@ class HerbDetailsView(DeleteView):
     template_name = "herbs/herb_delete.html"
 
 
-
-
 class CategoryListView(ListView):
     model = Category
-    pass
 
 
 class FlavorListView(ListView):
     model = Flavor
-    pass
 
 
 class CountryListView(ListView):
     model = Country
-    pass

@@ -16,11 +16,7 @@ C
 B
 templates/404.html,6/8/68a8bfc84a821a32ae5ba7dad3051cb12d1529b3
 C
-herb_helper/urls.py,f/0/f0f365ed7a8c7b133ac44f7cb3d9fe8579a13c9b
-C
 templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
-=
-herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
 H
 herbs/models/__init__.py,1/4/1405469d41f896e0dfd76b8743f1612704449ef4
 <
@@ -31,9 +27,8 @@ P
  herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
 G
 herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
->
-herbs/views.py,3/e/3e67312e51e79ae9ca643b5f3ca28d62975c7ddf
-V
-&herbs/templates/herbs/herb_delete.html,c/f/cf99a2f4868de82a5364f463ba3ea16bbded9996
 @
 static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
