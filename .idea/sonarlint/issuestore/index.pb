@@ -29,6 +29,3 @@ G
 herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
 @
 static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

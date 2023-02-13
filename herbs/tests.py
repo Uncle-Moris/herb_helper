@@ -1,3 +1,8 @@
 from django.test import TestCase
 
-# Create your tests here.
+from .models.models import Herb, Flavor
+
+
+class HerbTestCase(TestCase):
+    def setUp(self):
+        Flavor.objects.create(name="Sour", )
