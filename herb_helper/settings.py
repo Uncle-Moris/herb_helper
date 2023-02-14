@@ -81,7 +81,19 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    },
+
+    # 'default': {
+    #     'ENGINE': 'django_cockroachdb',
+    #     'NAME': '{database}',
+    #     'USER': '{username}',
+    #     'PASSWORD': '{password}',
+    #     'HOST': '{host}',
+    #     'PORT': '{port}',
+    #     'OPTIONS': {
+    #         'sslmode': 'verify-full'
+    #     },
+    # },
 }
 
 

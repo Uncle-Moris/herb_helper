@@ -21,7 +21,9 @@ class Country(BaseModel):
 class Flavor(BaseModel):
     class Meta:
         ordering = ('name',)
-
+    rating = models.IntegerField(default=2)
+# Flavor.objects.all().aggregate(Avg('rating'))
+# Page.objects.all().aggregate(Avg('visits_count'))
     def __str__(self):
         return f'{self.name}'
 

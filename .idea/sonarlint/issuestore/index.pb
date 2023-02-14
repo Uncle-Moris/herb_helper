@@ -1,8 +1,6 @@
 
 O
 herb_helper/templates/base.html,c/4/c4f35bfdba169b01b747a565c36f5ff3dc152ff7
-@
-requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
 >
 herbs/forms.py,9/2/92997375d4fd53327c7fd0c952d918f17099f92c
 G
@@ -25,7 +23,5 @@ T
 $herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
 P
  herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
-G
-herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
 @
 static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
