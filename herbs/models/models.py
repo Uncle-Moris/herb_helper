@@ -5,6 +5,7 @@ from .abstract_models import BaseModel
 class Category(BaseModel):
     class Meta:
         ordering = ('pk',)
+        verbose_name_plural = 'Countries'
 
     def __str__(self):
         return f'{self.name}'
@@ -13,6 +14,7 @@ class Category(BaseModel):
 class Country(BaseModel):
     class Meta:
         ordering = ('name',)
+        verbose_name_plural = "Countries"
 
     def __str__(self):
         return f'{self.name}'
@@ -21,16 +23,14 @@ class Country(BaseModel):
 class Flavor(BaseModel):
     class Meta:
         ordering = ('name',)
-    rating = models.IntegerField(default=2)
-# Flavor.objects.all().aggregate(Avg('rating'))
-# Page.objects.all().aggregate(Avg('visits_count'))
+
     def __str__(self):
         return f'{self.name}'
 
 
 class Herb(BaseModel):
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
-    country_of_origin = models.ManyToManyField(Country)
+    country_of_origin = models.ManyToManyField(Country, null=True, blank=True)
     flavor = models.ForeignKey(Flavor, on_delete=models.CASCADE)
     img = models.ImageField(upload_to='uploads/')
 
