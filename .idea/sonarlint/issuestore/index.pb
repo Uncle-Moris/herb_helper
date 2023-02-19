@@ -38,3 +38,15 @@ C
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+C
+docker-compose.yaml,e/f/ef8def03dc8f162799089e9b5f4321201c8810d5
+C
+templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
+O
+herbs/models/abstract_models.py,0/2/0285c8b24d370a3a6981313a4390c1600815f91b
+G
+herbs/tests/__init__.py,d/d/dde39f36ed56ca0a7960d0a1e3e3ed23d312f273
+F
+herbs/tests/factory.py,0/5/05173f81a6672485de3518c2cb3a7728aeb564a2
+@
+requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
