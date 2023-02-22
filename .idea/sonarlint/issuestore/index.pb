@@ -13,20 +13,12 @@ H
 herbs/models/__init__.py,1/4/1405469d41f896e0dfd76b8743f1612704449ef4
 <
 fixture.json,f/4/f470f3d99a50c6d6df112c2388af0d578bda059a
-T
-$herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
 P
  herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
 @
 static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
->
-herbs/admin.py,9/9/99201fc8dda4462af5977e14c4a23034b3704e9c
 V
 &herbs/templates/herbs/herb_delete.html,c/f/cf99a2f4868de82a5364f463ba3ea16bbded9996
-=
-herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
->
-herbs/views.py,3/e/3e67312e51e79ae9ca643b5f3ca28d62975c7ddf
 4
 .env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 :
@@ -36,11 +28,14 @@ C
 docker-compose.yaml,e/f/ef8def03dc8f162799089e9b5f4321201c8810d5
 C
 templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
-O
-herbs/models/abstract_models.py,0/2/0285c8b24d370a3a6981313a4390c1600815f91b
 G
 herbs/tests/__init__.py,d/d/dde39f36ed56ca0a7960d0a1e3e3ed23d312f273
 F
 herbs/tests/factory.py,0/5/05173f81a6672485de3518c2cb3a7728aeb564a2
 @
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
+G
+herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
+:
+
+pytest.ini,e/a/ea898f73cf4daab2e41a2c710093f364ce6a7d1b
