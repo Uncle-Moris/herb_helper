@@ -17,8 +17,6 @@ P
  herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
 @
 static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
-V
-&herbs/templates/herbs/herb_delete.html,c/f/cf99a2f4868de82a5364f463ba3ea16bbded9996
 4
 .env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 :
@@ -34,8 +32,6 @@ F
 herbs/tests/factory.py,0/5/05173f81a6672485de3518c2cb3a7728aeb564a2
 @
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
-G
-herb_helper/settings.py,a/3/a3de23352e68924d3947bd589aa60a462fd6781b
 :
 
 pytest.ini,e/a/ea898f73cf4daab2e41a2c710093f364ce6a7d1b
@@ -43,5 +39,11 @@ C
 herb_helper/wsgi.py,e/2/e2e0bd430f1d680b904df39dab5aa76ee159fbb4
 K
 herbs/tests/tests_models.py,1/5/15caa36e455fca4254a9723f11c164c0e05e703b
+T
+$herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
 >
-herbs/forms.py,9/2/92997375d4fd53327c7fd0c952d918f17099f92c
+herbs/admin.py,9/9/99201fc8dda4462af5977e14c4a23034b3704e9c
+F
+herbs/models/models.py,8/2/82d231781b63422d7e442fb75b80f7aab2a210f0
+O
+herbs/models/abstract_models.py,0/2/0285c8b24d370a3a6981313a4390c1600815f91b

@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'herbs'
+    'herbs',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -83,17 +84,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     },
 
-    # 'default': {
-    #     'ENGINE': 'django_cockroachdb',
-    #     'NAME': '{database}',
-    #     'USER': '{username}',
-    #     'PASSWORD': '{password}',
-    #     'HOST': '{host}',
-    #     'PORT': '{port}',
-    #     'OPTIONS': {
-    #         'sslmode': 'verify-full'
-    #     },
-    # },
 }
 
 
