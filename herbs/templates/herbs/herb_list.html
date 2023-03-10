@@ -9,7 +9,7 @@
     <ul>
         {% for herb in herbs_list %}
             <li>{{ herb.name }}
-                <a href="{% url 'herb-detail-page' slug=herb.slug %}">{{ herb.name }}</a>
+                <a href="{% url 'herbs:herb-detail-page' slug=herb.slug %}">{{ herb.name }}</a>
             </li>
         {% endfor %}
     </ul>
