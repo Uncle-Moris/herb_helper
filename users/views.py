@@ -40,5 +40,5 @@ def user_login(request):
 def user_logout(request):
 	logout(request)
 	messages.info(request, "You have successfully logged out.")
-	return redirect("/herbs")
+	return redirect("herbs:herb-list")
 
