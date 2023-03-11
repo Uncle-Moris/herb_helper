@@ -5,14 +5,19 @@
 {% endblock %}
 
 {% block content %}
-    <!--Login-->
-<div class="container py-5">
-  <h1>Login</h1>
-  <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-    <button class="btn btn-primary" type="submit">Login</button>
-  </form>
-  <p class="text-center">Don't have an account? <a href="{% url "register" %}">Create an account</a>.</p>
-</div>
+    <div class="container py-5">
+        <h1>Login</h1>
+        <form method="POST">
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="mb-3">
+                    <label for="{{ field.id_for_label }}" class="form-label">{{ field.name }}</label>
+                    <input type="{{ field.widget_type }}" name="{{ field.name }}" class="form-control"
+                           id="{{ field.id_for_label }}">
+                </div>
+            {% endfor %}
+            <button class="btn btn-primary" type="submit">Login</button>
+            <p class="text-center">Don't have an account? <a href="{% url "register" %}">Create an account</a>.</p>
+        </form>
+    </div>
 {% endblock %}

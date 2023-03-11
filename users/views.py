@@ -3,19 +3,17 @@ from .forms import UserRegisterForm
 from django.contrib.auth import login,logout, authenticate
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
-
+from django.views import View
 
 def user_register(request):
 	if request.method == "POST":
 		form = UserRegisterForm(request.POST)
 		if form.is_valid():
-			user = form.save()
-			login(request, user)
-			messages.success(request, "Registration successful.")
-			return redirect("herbs:herb-list")
-		messages.error(request, "Unsuccessful registration. Invalid information.")
-	form = UserRegisterForm()
-	return render(request=request, template_name="users/register.html", context={"form": form})
+			form.save()
+			return redirect("success")
+	else:
+		form = UserRegisterForm()
+	return render(request, "users/register.html", {"form": form})
 
 
 def user_login(request):
@@ -42,3 +40,6 @@ def user_logout(request):
 	messages.info(request, "You have successfully logged out.")
 	return redirect("herbs:herb-list")
 
+
+def success(request):
+    return render(request, "users/success.html")
