@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Login
+    Login page
 {% endblock %}
 
 {% block content %}
@@ -12,7 +12,7 @@
             {% for field in form %}
                 <div class="mb-3">
                     <label for="{{ field.id_for_label }}" class="form-label">{{ field.name| capfirst }}</label>
-                    <input type="{{ field.widget_type }}" name="{{ field.name | capfirst  }}" class="form-control"
+                    <input type="{{ field.widget_type }}" name="{{ field.name  }}" class="form-control"
                            id="{{ field.id_for_label }}">
                 </div>
             {% endfor %}

@@ -4,6 +4,7 @@ from django.contrib import messages
 from users.forms import UserRegisterForm
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.views import View
+from django.views.generic import TemplateView
 
 
 def user_register(request):
@@ -47,5 +48,6 @@ def user_logout(request):
 	return redirect("herbs:herb-list")
 
 
-def success(request):
-	return render(request, "users/success.html")
+
+class SuccessView(TemplateView):
+	template_name = "users/success.html"

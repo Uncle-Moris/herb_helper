@@ -13,8 +13,6 @@ H
 fixture.json,f/4/f470f3d99a50c6d6df112c2388af0d578bda059a
 P
  herbs/migrations/0001_initial.py,0/8/08eceacfa6774cd7e7a8984f153fdf85772d7873
-@
-static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
 4
 .env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 :
@@ -59,11 +57,11 @@ L
 users/migrations/__init__.py,2/3/230870cff2cd30fc8669ed5dfc155cee3aa7b30f
 Q
 !users/templates/users/logout.html,3/a/3a65f3b1ed49bf70960f6f18ff2adde938d04bf5
-T
-$herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
 V
 &herbs/templates/herbs/herb_delete.html,c/f/cf99a2f4868de82a5364f463ba3ea16bbded9996
 C
 herb_helper/urls.py,f/0/f0f365ed7a8c7b133ac44f7cb3d9fe8579a13c9b
+R
+"users/templates/users/success.html,8/9/896adfd3868d536ed944046870c8db9cda13c2da
 =
 herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
