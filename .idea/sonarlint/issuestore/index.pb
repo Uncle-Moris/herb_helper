@@ -65,3 +65,11 @@ R
 "users/templates/users/success.html,8/9/896adfd3868d536ed944046870c8db9cda13c2da
 =
 herbs/urls.py,2/8/289447906384dfec50c2680609af365ee7996ec8
+T
+$herbs/templates/herbs/herb_list.html,3/2/3237f9dbdeeaa38be881e3056763746e482f2ed0
+N
+templates/includes/navbar.html,f/2/f2f4b4c84c73b1a50cddb14c388363225716d069
+@
+static/style.css,e/a/ea7b422455b8b60eb5b1123f19040f20653b36a4
+=
+users/urls.py,7/e/7ebb6dc32a2768a7e73ce1c83409f9c85bd4ad6a
