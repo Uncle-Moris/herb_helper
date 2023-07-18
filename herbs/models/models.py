@@ -31,7 +31,7 @@ class Flavor(BaseModel):
 class Herb(BaseModel):
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     country_of_origin = models.ForeignKey(Country, null=True, blank=True, on_delete=models.PROTECT)
-    flavor = models.ManyToManyField(Flavor,null=True, blank=True )
+    flavor = models.ManyToManyField(Flavor, blank=True)
     img = models.ImageField(upload_to='uploads/', null=True, blank=True)
 
     def __str__(self):

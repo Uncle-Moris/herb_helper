@@ -8,7 +8,7 @@ class BaseAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('name',)}
 
 
-admin.site.register(models.Category, BaseAdmin)
+admin.site.register(models.Category)
 admin.site.register(models.Country)
 admin.site.register(models.Flavor)
 
